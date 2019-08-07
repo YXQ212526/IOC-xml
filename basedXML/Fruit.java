@@ -10,7 +10,16 @@ public class Fruit {
   public void setFruit(String fruit) {
     this.fruit = fruit;
   }
-//
+
+  public int getCode() {
+    return code;
+  }
+
+  public String getFruit() {
+    return fruit;
+  }
+
+  //
 //  Fruit(Color color)
 //  {
 //
